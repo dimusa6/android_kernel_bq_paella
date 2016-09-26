@@ -40,7 +40,7 @@ Finally, build the kernel according the next table of product names:
 
 | device                    | product                 |
 | --------------------------|-------------------------|
-| bq aquaris X5             | picmt                   |
+| bq aquaris X5             | paella                  |
 
 
         $ make -C kernel  O=../KERNEL_OUT  ARCH=arm CROSS_COMPILE=../arm-eabi-4.8/bin/arm-eabi- {product}_defconfig
